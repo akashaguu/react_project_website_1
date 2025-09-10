@@ -8,13 +8,15 @@ function Banner3() {
     const threecards=[{
     cardname:"ProductDesign",
     cardtext:"This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com",
-    cardImage:
+    cardImage:image1
     },{
         cardname:"Visual Design",
-        cardtext:"This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com"
+        cardtext:"This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com",
+        cardImage:image2
     },{
         cardname:"Art Design",
-        cardtext:"This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com"
+        cardtext:"This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com",
+        cardImage:image3
     }]
   return (
     <div>
