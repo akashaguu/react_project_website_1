@@ -1,0 +1,33 @@
+.banner2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 130.83px;
+}
+
+.google{
+    
+    margin: 68px 46.31px 46.31px;
+}
+/* .nike{
+     width: 85px;
+    height: 30px;
+    margin: 50px 0 50px 0;
+}
+.samsung{
+     width: 110px;
+    height: 18px;
+    margin: 55px 0 55px 0;
+}
+.apple{
+     width: 40px;
+    height: 45px;
+    margin: 42px 0 42px 0;
+}
+.adidas{
+     width: 65px;
+    height: 44px;
+    margin: 44px 68px 46px 0;
+} */
