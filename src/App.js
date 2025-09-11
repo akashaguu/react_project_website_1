@@ -1,17 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './component/Header/Header';
-import Banner from './component/Banner/Banner';
-import Banner2 from './component/Banner2/Banner2';
-import Banner3 from './component/Banner3/Banner3';
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './Pages/Home'
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import Work from './Pages/Work'
 
 function App() {
   return (
      <>
-    <Header />
-    <Banner />
-    <Banner2 />
-    <Banner3 /> 
+     <BrowserRouter>
+     <Routes>
+      <Route path='/' element={<Home />}></Route>
+      <Route path='/about' element={<About />}></Route>
+      <Route path='/work' element={<Work />}></Route>
+      <Route path='/contact' element={<Contact />}></Route>
+
+     </Routes>
+     
+     
+     
+     </BrowserRouter>
+    
     </>
   );
 }

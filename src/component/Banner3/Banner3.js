@@ -21,23 +21,22 @@ function Banner3() {
   return (
     <div>
       <div class="banner3">
-        <div class="pord">
-            <div class="img1" ><img src="C:\Users\USER\Desktop\Sajesh\javascript\images\Skills Card Icon (2).png"></img></div>
-            <div class="head1"><h2>Product Design</h2></div>
-            <div class="para1"><h4>This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</h4></div>
-        </div>
-        <div class="pord2">
-            <div class="img2" ><img src="C:\Users\USER\Desktop\Sajesh\javascript\images\Skills Card Icon (3).png"></img></div>
-            <div class="head2"><h2>Visual Design</h2></div>
-            <div class="para2"><h4>This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</h4></div>
-        </div>
-        <div class="pord3"> 
-            <div class="img3" ><img src="C:\Users\USER\Desktop\Sajesh\javascript\images\Rectangle 25.png"></img></div>
-            <div class="head3"><h2>Art Design</h2></div>
-            <div class="para3"><h4>This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</h4></div>
-        </div>
+      
+          {
+            threecards.map((i) =>(
+              <>
+                <div class="pord">
+              <div class="img1" ><img src={i.cardImage}></img></div>
+            <div class="head1"><h2>{i.cardname}</h2></div>
+            <div class="para1"><h4>{i.cardtext}</h4></div>
+         </div>
+</>
+            ))
+          }
+            </div>
+      
     </div>
-    </div>
+  
   )
 }
 

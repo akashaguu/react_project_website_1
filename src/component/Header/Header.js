@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Header.css"
+import {NavLink} from 'react-router-dom'
 
 function Header() {
   const nav=[{
@@ -16,11 +17,11 @@ function Header() {
     <div>
       <div class="header">
 
-        <div class="header-left">LOGO</div>
+        <NavLink to={'/'}  class="header-left">LOGO</NavLink>
         <div class="header-right">
           {
             nav.map((i) =>(
-               <div>{i.name}</div>
+               <NavLink to={i.value}>{i.name}</NavLink>
 
 
             ))

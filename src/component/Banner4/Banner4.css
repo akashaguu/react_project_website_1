@@ -1,0 +1,21 @@
+.banner4{
+    
+    height: 1000px;
+    background-color: #000000b0;
+}
+.late{
+    font-size: xx-large;
+    font-weight: 600;
+    
+    font-family:sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    color: #ffffff;
+}
+.maingrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    padding-top: 50px;
+    text-align: center;
+}

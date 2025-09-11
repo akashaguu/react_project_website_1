@@ -1,0 +1,42 @@
+.banner6{
+    background-color: #4F4F4F;
+    height: 500px;
+}
+.lets{
+    color: #ffffff;
+    font-family:sans-serif;
+    padding-left: 80px;
+    padding-top: 50px;
+    font-size: xx-large;
+}
+.sub{
+    padding-left: 80px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    font-family: Epilogue;
+    width: 600px;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #ffffff
+}
+.form{
+    justify-content: space-between;
+    margin-right: 150px;
+    
+}
+.conname{
+    height: 50px;
+    width: 450px;
+}
+.conemail{
+    height: 50px;
+    width: 450px;
+}
+.b1{
+    height: 80px;
+    width: 200px;
+}
