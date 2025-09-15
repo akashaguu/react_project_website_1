@@ -10,6 +10,7 @@
     margin: 24px 0 24px 42px;
     color: #ffffff;
     display: flex;
+    text-decoration: none;
     
 }
 .header-right{
@@ -21,4 +22,9 @@
     font-weight: 400;
     font-size: 17px;
     line-height: 27px;
+    text-decoration: none;
+}
+.links{
+    color: #ffffff;
+    text-decoration: none;
 }

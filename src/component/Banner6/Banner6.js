@@ -23,10 +23,10 @@ function Banner6() {
                 ))
             }
             
-            <div class="form">
+            <div class="form9">
                 <input class="conname" type="text" placeholder="Name"></input><br></br><br></br>
                 <input class="conemail" type="text" placeholder="Email"></input><br></br>
-                <button class="b1">Submit</button>
+                <button class="b2">Submit</button>
             </div>
         </div>
     </div>

@@ -15,13 +15,13 @@ function Header() {
   }]
   return (
     <div>
-      <div class="header">
+      <div className="header">
 
-        <NavLink to={'/'}  class="header-left">LOGO</NavLink>
-        <div class="header-right">
+        <NavLink to={'/'}  className="header-left">LOGO</NavLink>
+        <div className="header-right">
           {
             nav.map((i) =>(
-               <NavLink to={i.value}>{i.name}</NavLink>
+               <NavLink to={i.value} className="links">{i.name}</NavLink>
 
 
             ))
