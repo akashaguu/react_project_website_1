@@ -9,24 +9,24 @@ function Banner6() {
     }]
   return (
     
-      <div class="banner6">
-        <div class="lets">
+      <div className="banner6">
+        <div className="lets">
             <span>Lets work together</span>
         </div>
-        <div class="sub">
+        <div className="sub">
             {
                 social.map((i)=>(
-                        <div class="contact">
+                        <div className="contact">
                 <h3>{i.coninfo}</h3>
-                <img src={i.conimg}></img>
+                <img alt='banner6img' src={i.conimg}></img>
             </div>
                 ))
             }
             
-            <div class="form9">
-                <input class="conname" type="text" placeholder="Name"></input><br></br><br></br>
-                <input class="conemail" type="text" placeholder="Email"></input><br></br>
-                <button class="b2">Submit</button>
+            <div className="form9">
+                <input className="conname" type="text" placeholder="Name"></input><br></br><br></br>
+                <input className="conemail" type="text" placeholder="Email"></input><br></br>
+                <button className="b2">Submit</button>
             </div>
         </div>
     </div>

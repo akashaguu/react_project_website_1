@@ -6,7 +6,7 @@ function contactModal({setModal}) {
     
   return (
     
-    <div class="form1">
+    <div className="form1">
       <div className='closebutton' onClick={() =>setModal(false)}>X</div>
       <h2>Contact form</h2>
       <input type='text' placeholder='name' className='forms'></input>

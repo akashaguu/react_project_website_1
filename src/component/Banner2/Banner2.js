@@ -22,21 +22,16 @@ function Banner2() {
 ]
   return (
     <div>
-       <div class="banner2">
+       <div className="banner2">
         {
             icons.map((i) =>(
-                 <img class="google" src={i.bannerImage} ></img>
+                 <img className="google" alt='banner2img' src={i.bannerImage} ></img>
 
 
             ))
         }
         
-         {/* <img class="google" src={group} ></img>
-         <img  class="nike" src={nike}></img>
-         <img class="samsung" src={samsung} ></img>
-         <img class="apple" src={apple}></img>
-         <img class="adidas" src="C:\Users\USER\Downloads\image 7 (Traced) (1).png"></img>
-         */}
+         
     </div>
     </div>
   )

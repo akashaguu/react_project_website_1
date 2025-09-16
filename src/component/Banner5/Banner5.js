@@ -24,15 +24,15 @@ function Banner5() {
         testimg:climg
     }]
   return (
-    <div class="banner5">
-        <div class="test"><span >Testimonial</span></div>
-            <div class="gridd">
+    <div className="banner5">
+        <div className="test"><span >Testimonial</span></div>
+            <div className="gridd">
             {
                 bann5.map((i)=>(
                    
-                        <div class="text1">
+                        <div className="text1">
                             <p>{i.testbox}</p>
-                            <img src={i.testimg} ></img>
+                            <img alt='banner5img' src={i.testimg} ></img>
                         </div>
                     
                 ))

@@ -37,18 +37,18 @@ function Banner4() {
     ]
   return (
     <div>
-      <div class="banner4">
-           <div class="late"><span >Latest Work</span></div>
-            <div class="maingrid">
+      <div className="banner4">
+           <div className="late"><span >Latest Work</span></div>
+            <div className="maingrid">
         {
             sixbox.map((i)=>(
             <>
              
                
-                <div class="grid1">
-                    <div class="imgg1"><img src={i.boximg}></img></div>
-                    <div class="headd1"><h2>{i.boxtitle}</h2></div>
-                    <div class="paraa1"><h4>{i.boxcontent}</h4></div>
+                <div className="grid1">
+                    <div className="imgg1"><img alt='banner4img' src={i.boximg}></img></div>
+                    <div className="headd1"><h2>{i.boxtitle}</h2></div>
+                    <div className="paraa1"><h4>{i.boxcontent}</h4></div>
                 </div>
               
             </>

@@ -20,15 +20,15 @@ function Banner3() {
     }]
   return (
     <div>
-      <div class="banner3">
+      <div className="banner3">
       
           {
             threecards.map((i) =>(
               <>
-                <div class="pord">
-              <div class="img1" ><img src={i.cardImage}></img></div>
-            <div class="head1"><h2>{i.cardname}</h2></div>
-            <div class="para1"><h4>{i.cardtext}</h4></div>
+                <div className="pord">
+              <div className="img1" ><img alt='banner3img' src={i.cardImage}></img></div>
+            <div className="head1"><h2>{i.cardname}</h2></div>
+            <div className="para1"><h4>{i.cardtext}</h4></div>
          </div>
 </>
             ))
